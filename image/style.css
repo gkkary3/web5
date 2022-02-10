@@ -1,0 +1,298 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin: 0px;
+  padding: 0px;
+  color: #000;
+}
+
+h1 {
+  font-size: 41px;
+  font-weight: 100;
+}
+
+.contents1 {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.contents2 {
+  font-size: 20px;
+  font-weight: lighter;;
+  
+}
+
+.contents3 {
+  font-size: 15px;
+}
+
+.contents1_bold{
+  font-size:18px;
+  font-weight: bold;
+}
+
+.contact_num {
+  font-size: 14px;
+  font-weight: bold;
+  color:black;
+}
+
+.intro_bg {
+  background-image: url("./mask.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 718px;
+}
+
+.header {
+  display: flex;
+  width: 1280px;
+  height: 86px;
+  margin: auto;
+}
+
+.search_area {
+  width: 300px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin-top: 24px;
+}
+
+.search_area input {
+  border: none;
+  width: 250px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  padding-left: 10px;
+}
+
+.search_area span {
+  width: 50px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 86px;
+  width: calc(1280px - 330px);
+}
+
+.nav li {
+  margin-left: 84px;
+}
+
+.nav a {
+  color: white;
+}
+
+.intro_text {
+  width: 100%;
+  margin: 231px auto 231px auto;
+  text-align: center;
+}
+
+.intro_text h1,
+h3 {
+  margin-top: 50px;
+  color: white;
+}
+
+#ab {
+  position: relative;
+  top: -131px;
+  width: 1280px;
+  height: 212px;
+  margin:auto;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 0em;
+}
+
+#ab > div > li:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.a,
+.b {
+  display: flex;
+  rgba(0, 0, 0, 0);
+  height: 57px;
+  margin-top: 37px;
+}
+
+.a li,
+.b li {
+  padding: 29px 0px;
+  height: 36px;
+  text-align: center;
+  flex:1;
+  background-color: rgba(0, 0, 0, 0.2);
+  color:white;
+}
+
+/* main_text0*/
+
+#main_text0{
+  width:100%;
+  height:601px;
+  margin-top:-250px;
+  background: #f1f2f3;
+}
+
+#main_text0  h1 {
+  text-align: center;
+  padding: 225px 0 0 0;
+  font-weight: bold;
+}
+
+#main_text0 .contents2 {
+  padding:20px 0 65px 0;
+  text-align: center;
+}
+
+.icons {
+  margin:auto;
+  display:flex;
+  width:1280px;
+  background: rgba(0, 0, 0, 0);
+
+}
+
+.icons li {
+  flex:1;
+  height: 302px;
+  margin: 49px 0;
+  background-color:rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.icons_img {
+  margin-top: 36px;
+}
+
+.icons > li:not(:last-child){
+  margin-right: 20px;
+}
+
+
+.icons > li > .contents1_bold {
+  margin-top: 5px;
+}
+
+.icons > li > .contents3 {
+  margin-top: 20px;
+}
+
+.moreBtn {
+  margin:50px 156.656px 20px 156.688px ;
+  width: 100px;
+  hegith: 30px;
+  background: darkkhaki;
+  color:white;
+}
+
+#main_text1 {
+  margin-top:225px;
+  width: 100%;
+  height: 659px;
+
+}
+
+#main_text1 h1{
+  padding-top: 50px;
+  text-align: center;
+}
+
+#main_text1 div{
+  padding: 20px 0 65px 0;
+  text-align: center;
+}
+
+.service {
+  paddong:0;
+  width:1280px;
+  height: 427px;;
+  display:flex;
+  margin:auto;
+}
+
+.f_photo {
+  padding:0;
+}
+
+.f_photo img{
+  width:700px;
+ height:427px;
+}
+
+.contents3 > div {
+  width:500px;
+  height: 427px;
+  padding: 20px;
+}
+
+.main_text2{
+  display:flex;
+  width:100%;
+  height:416px;
+}
+
+.main_text2 div:first-child{ 
+  margin-top: 130px;
+  width:100%;
+  height:416px;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-repeat: no-repeat;
+
+}
+
+.main_text2 div:first-child li {
+  text-align: center;
+  margin-top: 100px;
+  color:white;
+  word-break:initial;
+}
+
+.main_text2 ul {
+  display: flex;
+}
+
+.main_text2 li {
+  flex:1; 
+  text-align: center;
+}
+
+li.contact_num {
+  flex:1;
+  padding:10px 10px;
+  text-align: center;
+  color:white;
+}
+
+li.contact_name {
+  flex:1;
+  text-align: center;
+  color:white;
+}
+
+footer {
+  background: #f1f1f1;
+  display:flex;
+}
+
+footer > div:first-child {
+  flex:3;
+  text-align: center;
+  color:white
+}
+
+footer > div:last-child {
+  flex:9;
+  color:white;
+}
